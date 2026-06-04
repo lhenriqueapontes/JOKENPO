@@ -1,31 +1,36 @@
 # AI Strategy Game Lab
 
-Rework of an old Jokenpo project into a small AI strategy lab.
+Projeto modernizado a partir de um jogo antigo. Agora funciona como laboratorio simples de estrategia, simulacao e agente baseado em historico.
 
-## Goal
-
-Build a simple learning opponent for rock-paper-scissors using recent move history.
-
-## Run
+## Como executar
 
 ```bash
 python src/strategy_bot.py
+python src/evaluate_strategies.py
 ```
 
-## What it demonstrates
+## O que o projeto demonstra
 
-- rule-based baseline
-- frequency strategy
-- simple Markov transition strategy
-- evaluation by simulated matches
+- jogador aleatorio como baseline;
+- bot por frequencia;
+- bot por transicao simples;
+- simulacao de partidas;
+- exportacao de resultados para CSV.
 
-## Structure
+## Estrutura
 
 ```text
 src/strategy_bot.py
+src/evaluate_strategies.py
 reports/
 ```
 
-## License
+## Saida
+
+```text
+reports/strategy_results.csv
+```
+
+## Licenca
 
 MIT License.
