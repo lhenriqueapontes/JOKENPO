@@ -1,36 +1,37 @@
-# AI Strategy Game Lab
+# AgentOps Strategy Lab
 
-Projeto modernizado a partir de um jogo antigo. Agora funciona como laboratorio simples de estrategia, simulacao e agente baseado em historico.
+Portfolio project for autonomous decision strategies in Python.
 
-## Como executar
+## Run
 
 ```bash
 python src/strategy_bot.py
 python src/evaluate_strategies.py
 ```
 
-## O que o projeto demonstra
+## What it does
 
-- jogador aleatorio como baseline;
-- bot por frequencia;
-- bot por transicao simples;
-- simulacao de partidas;
-- exportacao de resultados para CSV.
+- simulates a decision environment;
+- compares baseline and adaptive strategies;
+- uses recent history to choose actions;
+- exports strategy results to CSV.
 
-## Estrutura
+## Files
 
 ```text
 src/strategy_bot.py
 src/evaluate_strategies.py
-reports/
-```
-
-## Saida
-
-```text
 reports/strategy_results.csv
 ```
 
-## Licenca
+## Next steps
+
+- add reinforcement learning baseline;
+- add stateful memory;
+- add YAML configuration;
+- add pytest tests;
+- add dashboard for strategy comparison.
+
+## License
 
 MIT License.
